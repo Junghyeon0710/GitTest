@@ -11,12 +11,6 @@ AMyClass::AMyClass()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
-// Called when the game starts or when spawned
-void AMyClass::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
 
 // Called every frame
 void AMyClass::Tick(float DeltaTime)
